@@ -5,7 +5,7 @@ body {
     background-image: url(back.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(200px);
+    backdrop-filter: blur(50px);
 }
 
 .container {
@@ -28,6 +28,7 @@ textarea {
 
 button {
     background: #0056b3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
     border: none;
     padding: 10px;
@@ -38,6 +39,7 @@ button {
 
 button:hover {
     background: #007bff;
+    color: #001308;
 }
 
 ul {
@@ -99,7 +101,6 @@ button.restore {
   }
 
 /*Loading circle*/
-/* From Uiverse.io by Valeron-T */ 
 .loader {
     position: relative;
     width: 150px;
