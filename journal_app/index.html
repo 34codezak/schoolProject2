@@ -15,7 +15,13 @@
         <button onclick="addEntry()">Save Entry</button>
         <button onclick="toggleTrash()">View Trash</button>
 
-        <h2>My Entries</h2>
+        <h2>My Entries <!-- From Uiverse.io by RaspberryBee --> 
+            <div class="loading">
+                <svg height="48px" width="64px">
+                    <polyline id="back" points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24"></polyline>
+                  <polyline id="front" points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24"></polyline>
+                </svg>
+              </div> </h2>
         <ul id="entriesList"></ul>
 
         <div id="trashSection" style="display: none;">
@@ -23,6 +29,17 @@
             <ul id="trashList"></ul>
         </div>
     </div>
+    
+    <!-- From Uiverse.io by Valeron-T --> 
+<div class="loader">
+    <span></span>
+  
+    <div id="dot-1" class="dot"></div>
+    <div id="dot-2" class="dot"></div>
+    <div id="dot-3" class="dot"></div>
+    <div id="dot-4" class="dot"></div>
+    <div id="dot-5" class="dot"></div>
+  </div>
     
     <script src="script.js"></script>
 </body>
