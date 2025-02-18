@@ -11,10 +11,17 @@
     <div class="container">
         <h1>Personal Journal</h1>
         <textarea id="entryText" placeholder="Write your journal entry..."></textarea>
+        
         <button onclick="addEntry()">Save Entry</button>
+        <button onclick="toggleTrash()">View Trash</button>
 
         <h2>My Entries</h2>
         <ul id="entriesList"></ul>
+
+        <div id="trashSection" style="display: none;">
+            <h2>Trash</h2>
+            <ul id="trashList"></ul>
+        </div>
     </div>
     
     <script src="script.js"></script>

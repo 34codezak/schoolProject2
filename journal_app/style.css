@@ -56,3 +56,7 @@ button.delete, button.edit {
 button.edit {
     background: green;
 }
+
+button.restore {
+    background: #ff4500;
+}
