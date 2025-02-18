@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", loadEntries);
 
 function addEntry() {
-    let text = document.getElementById("entryText").ariaValueMax;
+    let text = document.getElementById("entryText").value;
 
     if (!text.trim()) {
         return;
@@ -17,7 +17,7 @@ function addEntry() {
 
 function loadEntries() {
     let entries = JSON.parse(localStorage.getItem("journalEntries")) || [];
-    let list = document.getElementById("entiriesList");
+    let list = document.getElementById("entriesList");
     list.innerHTML = ""; //Clear list
 
     entries.forEach((entry, index) => {
