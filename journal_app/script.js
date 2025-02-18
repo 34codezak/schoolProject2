@@ -5,6 +5,7 @@ function addEntry() {
     let text = document.getElementById("entryText").value;
 
     if (!text.trim()) {
+        alert("Please enter some text before adding."); 
         return;
     }
     let entries = JSON.parse(localStorage.getItem("journalEntries")) || [];
